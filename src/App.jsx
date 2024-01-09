@@ -13,9 +13,20 @@ function App() {
   return (
     <CartProvider>
        <Navbar />
-      <h1 className='text-xl text-center'>
-        Task of Cart
+      <div className='text-center'>
+      <h1 className='text-xl 
+      font-semibold uppercase
+      text-center'>
+        Chicken Crisper@R Combos 
       </h1>
+      <h2>
+        <span className='text-xl
+        font-semibold uppercase
+        text-center'>
+          Find Everything from our Menu.Find the fajitas and famous Crisper
+        </span>
+      </h2>
+      </div>
       <Outlet />
       <div className='flex '>
       <div className=''>
